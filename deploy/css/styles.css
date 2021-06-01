@@ -408,21 +408,13 @@ textarea {
 /* =============
     Footer
 ============= */
-#container {
-  display: grid;
-  grid-template-columns: auto 80% auto;
-  grid-template-areas: ". shape .";
-  height: 100vh;
+#svg-container {
   background-color: #ffffff;
+  display: grid;
+  grid-template-areas: ". shape .";
+  grid-template-columns: auto 80% auto;
+  height: 100vh;
 }
-#container > div {
+#svg-container > div {
   grid-area: shape;
-}
-#container > div #shape {
-  height: 100px;
-  width: 100px;
-  background-color: #720316;
-  border-radius: 30%;
-  border: solid 10px #3d000a;
-  margin: 5%;
 }

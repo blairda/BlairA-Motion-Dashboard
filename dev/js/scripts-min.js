@@ -1,0 +1,1 @@
+import{gsap}from"gsap";import{GSDevTools}from"gsap/GSDevTools";gsap.registerPlugin(GSDevTools),GSDevTools.create();let mainTL=gsap.timeline({paused:!0});mainTL.add(moveInTL),mainTL.play();

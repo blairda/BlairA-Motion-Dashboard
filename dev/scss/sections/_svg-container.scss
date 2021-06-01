@@ -1,4 +1,4 @@
-#container {
+#svg-container {
 	background-color: #ffffff;
 	display: grid;
 	grid-template-areas: ". shape .";
@@ -9,12 +9,7 @@
 		grid-area: shape;
 
 		#shape {
-			background-color: #720316;
-			border: solid 10px #3d000a;
-			border-radius: 30%;
-			height: 100px;
-			margin: 5%;
-			width: 100px;
+
 		}
 	}
 }
