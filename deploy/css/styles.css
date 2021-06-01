@@ -411,10 +411,10 @@ textarea {
 #svg-container {
   background-color: #ffffff;
   display: grid;
-  grid-template-areas: ". shape .";
+  grid-template-areas: ". dashboard .";
   grid-template-columns: auto 80% auto;
   height: 100vh;
 }
 #svg-container > div {
-  grid-area: shape;
+  grid-area: dashboard;
 }
