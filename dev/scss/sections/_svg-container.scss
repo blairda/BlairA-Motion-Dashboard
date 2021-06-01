@@ -1,15 +1,12 @@
 #svg-container {
-	background-color: #ffffff;
+	background-color: #000000;
 	display: grid;
 	grid-template-areas: ". dashboard .";
-	grid-template-columns: auto 80% auto;
+	grid-template-columns: auto 60% auto;
 	height: 100vh;
+	align-content: center;
 
 	>div {
 		grid-area: dashboard;
-
-		#shape {
-
-		}
 	}
 }

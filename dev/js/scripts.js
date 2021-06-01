@@ -2,7 +2,7 @@ import { gsap } from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
 
 gsap.registerPlugin(GSDevTools);
-GSDevTools.create();
+// GSDevTools.create();
 
 import { startLogosTL } from "./startLogos";
 
