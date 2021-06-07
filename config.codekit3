@@ -66,6 +66,94 @@
       "oAP" : "\/deploy\/svg-container.html",
       "oF" : 2
     },
+    "\/dev\/content\/svg\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/header.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/left.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/left.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/middle.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/middle.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/middle\/oil.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/middle\/oil.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/middle\/volts.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/middle\/volts.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/middle\/water.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/middle\/water.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/right.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/right.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/top-stats.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/top-stats.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/top\/laptime.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/top\/laptime.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/top\/rpm.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/top\/rpm.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/top\/speed-lights.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/top\/speed-lights.html",
+      "oF" : 0
+    },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
