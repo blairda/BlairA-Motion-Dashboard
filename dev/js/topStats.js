@@ -8,7 +8,10 @@ export let boltStartTL = gsap.timeline();
 boltStartTL
 .fromTo("#path-2", {drawSVG:"50% 50%"},{duration: 2, drawSVG:"0% 100%", ease: "power1.out"}, "bolt-outline")
 .fromTo("#orange-bolt", {drawSVG:"50% 50%"},{duration: 2, drawSVG:"100% 0%", ease: "power1.out"}, "bolt-outline")
+.fromTo("#yellow-bolt", {drawSVG:"50% 50%"},{duration: 2, drawSVG:"100% 0%", ease: "power1.out"}, "bolt-outline")
 .from("#rpm-numbers path", {duration: 0.25, alpha: 0, stagger: 0.125, y: "+=10"})
+.fromTo("#rpm-bolt-fill", {x:"-=755"}, {duration: 1, x:"+=755"})
+.to("#rpm-bolt-fill", {duration: 0.5, x:"-=225"})
 ;
 
 

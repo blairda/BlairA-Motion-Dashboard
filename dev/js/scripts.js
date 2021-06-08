@@ -27,17 +27,16 @@ import { batteryTL } from "./rightSection";
 let mainTL = gsap.timeline({paused:true});
 
 mainTL
-.add(startLogosTL)
-.add(headerTL)
-
 .addLabel("marker")
+.add(startLogosTL)
+.add(headerTL, "begin")
 
-.add(boltStartTL)
+.add(boltStartTL, "begin")
 .add(rpmTL)
 .add(laptimeTL, "-=0.25")
-.add(speedLightsTL)
+.add(speedLightsTL, "next")
 
-.add(drawLinesTL)
+.add(drawLinesTL, "next")
 
 .add(leftSectionTL)
 
