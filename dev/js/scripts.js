@@ -5,7 +5,8 @@ gsap.registerPlugin(GSDevTools);
 // GSDevTools.create();
 
 import { startLogosTL } from "./startLogos";
-import { rpmBoltTL } from "./rpmBolt";
+import { headerTL } from "./startLogos";
+import { boltStartTL } from "./topStats";
 
 
 
@@ -13,7 +14,8 @@ let mainTL = gsap.timeline({paused:true});
 
 mainTL
 .add(startLogosTL)
-// .add(rpmBoltTL)
+.add(headerTL)
+.add(boltStartTL)
 ;
         // .addLabel("marker")
 

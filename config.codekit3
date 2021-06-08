@@ -186,17 +186,6 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
-    "\/dev\/js\/rpmBolt.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/dev\/js\/rpmBolt-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/dev\/js\/scripts.js" : {
       "bF" : 4,
       "ft" : 64,
@@ -215,6 +204,17 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/startLogos-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/topStats.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/topStats-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
