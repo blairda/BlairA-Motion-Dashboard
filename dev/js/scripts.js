@@ -12,8 +12,8 @@ import { laptimeTL } from "./topStats";
 import { speedLightsTL } from "./topStats";
 import { drawLinesTL } from "./drawLines";
 import { leftSectionTL } from "./leftSection";
-
-
+import { rightSectionTL } from "./rightSection";
+import { batteryTL } from "./rightSection";
 
 
 let mainTL = gsap.timeline({paused:true});
@@ -24,10 +24,12 @@ mainTL
 .add(boltStartTL)
 .add(rpmTL, "main-stats")
 .add(laptimeTL, "main-stats")
-.addLabel("marker")
 .add(speedLightsTL)
 .add(drawLinesTL)
+.addLabel("marker")
 .add(leftSectionTL)
+.add(rightSectionTL)
+.add(batteryTL)
 ;
         // .addLabel("marker")
 
