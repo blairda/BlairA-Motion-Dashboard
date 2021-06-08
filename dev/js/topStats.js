@@ -61,12 +61,12 @@ speedLightsTL
 .from("#path-4", {duration: 0.125, alpha:0}, "-=0.05")
 .from("#path-3", {duration: 0.125, alpha:0}, "-=0.05")
 
-.to("#path-8", {duration: 0.125, alpha:1}, "-=0.05")
-.to("#path-7", {duration: 0.125, alpha:1}, "-=0.05")
-.to("#path-6", {duration: 0.125, alpha:1}, "-=0.05")
-.to("#path-5", {duration: 0.125, alpha:1}, "-=0.05")
-.to("#path-4", {duration: 0.125, alpha:1}, "-=0.05")
-.to("#path-3", {duration: 0.125, alpha:1}, "-=0.05")
+// .to("#path-8", {duration: 0.125, alpha:1}, "-=0.05")
+// .to("#path-7", {duration: 0.125, alpha:1}, "-=0.05")
+// .to("#path-6", {duration: 0.125, alpha:1}, "-=0.05")
+// .to("#path-5", {duration: 0.125, alpha:1}, "-=0.05")
+// .to("#path-4", {duration: 0.125, alpha:1}, "-=0.05")
+// .to("#path-3", {duration: 0.125, alpha:1}, "-=0.05")
 
 .to("#path-3", {duration: 0.125, alpha:0.33}, "-=0.05")
 .to("#path-4", {duration: 0.125, alpha:0.33}, "-=0.05")
