@@ -11,6 +11,7 @@ rightSectionTL
 .from("#plug", {duration: 0.33, alpha: 0, x: "-=25"}, "-=0.15")
 ;
 
+
 gsap.set("#battery-lines path",{transformOrigin:"bottom right"});
 export let batteryTL = gsap.timeline();
 
