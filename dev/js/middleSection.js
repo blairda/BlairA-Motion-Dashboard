@@ -6,6 +6,7 @@ gsap.registerPlugin(DrawSVGPlugin);
 export let voltsTL = gsap.timeline();
 
 voltsTL
+.fromTo("#vertical-2", {drawSVG:"false"},{duration: 0.25, drawSVG:"true", ease: "power1.out"})
 .from("#middle-rectangle-yellow", {duration: 0.25, alpha:0, y:"+=100"})
 .fromTo("#diagonal-3", {drawSVG:"false"},{duration: 0.25, drawSVG:"true", ease: "power1.out"})
 

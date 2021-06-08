@@ -19,4 +19,5 @@ batteryTL
 .fromTo("#battery-container", {drawSVG:"false"},{duration: 1, drawSVG:"true", ease: "power1.out"})
 .fromTo("#battery-edge", {drawSVG:"false"},{duration: 0.5, drawSVG:"true", ease: "power1.out"}, "-=0.25")
 .from("#battery-lines path", {duration: 0.25, stagger: 0.125, alpha:0, scale:0})
+.fromTo("#battery-body", {x:"-=275", alpha:0}, {duration: 1, x:"+=275", alpha:1}, "-=0.5")
 ;

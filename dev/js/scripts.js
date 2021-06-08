@@ -32,7 +32,7 @@ mainTL
 .add(headerTL, "begin")
 
 .add(boltStartTL, "begin")
-.add(rpmTL)
+.add(rpmTL, "-=0.5")
 .add(laptimeTL, "-=0.25")
 .add(speedLightsTL, "next")
 

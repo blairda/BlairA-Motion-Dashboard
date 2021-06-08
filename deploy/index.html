@@ -72,12 +72,6 @@
 		                            <path id="rpm-bolt-fill" fill="url(#linearGradient-1)" d="M0 37h754.955v227H0z" />
 		                        </g>
 		                
-		                        <!-- <path id="rpm-bolt-fill" fill="url(#linearGradient-1)" d="M0 37h754.955v227H0z" /> -->
-		                        <!-- <path
-		                            d="M4.977 213.251c60.455-65.256 124.091-108.23 190.91-128.92 0 0-21.478 26.26-31.023 47.748 0 0 181.363-88.335 300.682-88.335L429.75 79.555c127.273-42.973 230.682-50.931 310.227-23.874l-83.522 143.246c-98.637-12.733-243.41 7.958-434.319 62.073L246 201.314c-22.273 3.184-72.386 11.142-150.34 23.875l19.09-45.362L4.977 213.251z"
-		                            id="rpm-bolt-clip" fill="#CEFF00" /> -->
-		                
-		                
 		                        <g id="rpm-bolt" stroke-width="4">
 		                            <path stroke="#FFBA00"
 		                                d="M417.264 84.238c129.228-44.789 234.158-54.013 314.77-27.441h0l-81.618 139.979c-98.107-12.32-241.405 8.042-429.892 61.194h0l5.216-13.044.66-1.65 1.709-4.275 1.055-2.64 6.333-15.838.66-1.65 8.004-20.02c-19.979 2.764-70.057 10.69-150.233 23.779h0l19.343-45.96L6.574 209.159c56.775-59.927 116.34-100.254 178.721-120.925-6.745 8.779-20.2 27.193-27.236 43.033a102.72 102.72 0 00-2.039 4.941 507.464 507.464 0 014.737-2.329c7.065-3.418 176.236-84.782 292.746-88.035l2.184-.046-.918.919-1.06 1.06-.573.573-1.23 1.232-1 .999-1.063 1.064-.368.368-1.547 1.547-1.66 1.662-1.776 1.776-1.407 1.408-1.471 1.472-1.536 1.536-.526.526-2.738 2.74-1.73 1.73-1.793 1.794-1.857 1.858-2.578 2.579-.662.662-1.346 1.347-2.072 2.073z"
@@ -286,31 +280,34 @@
 		                <g id="right" transform="translate(577 498)">
 		                    <path id="right-background" fill="#E1E1E1" d="M0 0l447 36.875V270l-447-.18z" />
 		                    <g id="battery" transform="translate(53 124)">
-		                        <rect id="battery-edge" stroke="#565656" stroke-width="3" x="320.5" y="29.5"
-		                            width="19" height="49" rx="6" />
-		                        <rect id="battery-container" stroke="#565656" stroke-width="6"
-		                            transform="rotate(90 162.5 54)" x="111.5" y="-105.5" width="102" height="319" rx="15" />
-		                        <rect id="battery-body" fill="url(#linearGradient-9)" x="19.5" y="17.5" width="286" height="74"
-		                            rx="6" class="hide"/>
+		                        <rect id="battery-edge" stroke="#565656" stroke-width="3" x="320.5" y="29.5" width="19" height="49" rx="6" />
+		                        <rect id="battery-container" stroke="#565656" stroke-width="6" transform="rotate(90 162.5 54)" x="111.5"
+		                            y="-105.5" width="102" height="319" rx="15" />
+		                
+		                        <clipPath id="battery-clip">
+		                            <rect fill="#CEFF00" x="19.5" y="17.5" width="286" height="74.5" rx="6" />
+		                        </clipPath>
+		                
+		                        <g clip-path="url(#battery-clip)">
+		                            <path
+		                                d="M25.514 17.514l209.055.472a12 12 0 019.676 4.94l43.306 59.523a6 6 0 01-4.863 9.53L25.49 91.51a6 6 0 01-5.989-6V23.514a6 6 0 016.014-6z"
+		                                id="battery-body" fill="url(#linearGradient-9)" />
+		                        </g>
+		                
 		                        <g id="battery-lines">
-		                            <path id="battery-10" stroke="#565656" stroke-width="3" stroke-linecap="round"
-		                                d="M32 60l16.687 24.154" />
+		                            <path id="battery-10" stroke="#565656" stroke-width="3" stroke-linecap="round" d="M32 60l16.687 24.154" />
 		                            <path id="battery-20" stroke="#565656" stroke-width="4" stroke-linecap="round"
 		                                d="M49.837 40.636l31.027 44.31" />
-		                            <path id="battery-30" stroke="#565656" stroke-width="3" stroke-linecap="round"
-		                                d="M94 60l16.687 24.154" />
+		                            <path id="battery-30" stroke="#565656" stroke-width="3" stroke-linecap="round" d="M94 60l16.687 24.154" />
 		                            <path id="battery-40" stroke="#565656" stroke-width="4" stroke-linecap="round"
 		                                d="M109.872 40.595l31.007 44.282" />
-		                            <path id="battery-50" stroke="#565656" stroke-width="3" stroke-linecap="round"
-		                                d="M154 60l16.625 24.065" />
+		                            <path id="battery-50" stroke="#565656" stroke-width="3" stroke-linecap="round" d="M154 60l16.625 24.065" />
 		                            <path id="battery-60" stroke="#565656" stroke-width="4" stroke-linecap="round"
 		                                d="M168.834 40.638l30.912 44.146" />
-		                            <path id="battery-70" stroke="#565656" stroke-width="3" stroke-linecap="round"
-		                                d="M213 60l17.036 24.661" />
+		                            <path id="battery-70" stroke="#565656" stroke-width="3" stroke-linecap="round" d="M213 60l17.036 24.661" />
 		                            <path id="battery-80" stroke="#565656" stroke-width="4" stroke-linecap="round"
 		                                d="M228.855 39.713l31.677 45.24" />
-		                            <path id="battery-90" stroke="#565656" stroke-width="3" stroke-linecap="round"
-		                                d="M271 60l17.036 24.661" />
+		                            <path id="battery-90" stroke="#565656" stroke-width="3" stroke-linecap="round" d="M271 60l17.036 24.661" />
 		                        </g>
 		                    </g>
 		                    <path
