@@ -14,22 +14,26 @@ import { drawLinesTL } from "./drawLines";
 import { leftSectionTL } from "./leftSection";
 import { rightSectionTL } from "./rightSection";
 import { batteryTL } from "./rightSection";
+import { middleSectionTL } from "./middleSection";
+import { waterTL } from "./middleSection";
 
 
 let mainTL = gsap.timeline({paused:true});
 
 mainTL
+.addLabel("marker")
 .add(startLogosTL)
 .add(headerTL)
 .add(boltStartTL)
-.add(rpmTL, "main-stats")
-.add(laptimeTL, "main-stats")
+.add(rpmTL)
+.add(laptimeTL, "-=0.25")
 .add(speedLightsTL)
 .add(drawLinesTL)
-.addLabel("marker")
 .add(leftSectionTL)
 .add(rightSectionTL)
 .add(batteryTL)
+.add(middleSectionTL)
+.add(waterTL)
 ;
         // .addLabel("marker")
 

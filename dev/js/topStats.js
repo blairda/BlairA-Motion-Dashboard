@@ -15,18 +15,18 @@ boltStartTL
 export let rpmTL = gsap.timeline();
 
 rpmTL
-.from("#RPM", {duration: 0.5, alpha: 0, x: "-=25"})
-.from("#tachometer", {duration: 0.5, alpha: 0, y: "-=25"})
+.from("#RPM", {duration: 0.33, alpha: 0, x: "-=25"})
+.from("#tachometer", {duration: 0.33, alpha: 0, y: "-=25"}, "-=0.1")
 ;
 
 
 export let laptimeTL = gsap.timeline();
 
 laptimeTL
-.from("#LAPTIME", {duration: 0.5, alpha: 0, x: "+=25"})
-.from("#stopwatch", {duration: 0.5, alpha: 0, y: "-=25"})
-.from("#MIN", {duration: 0.5, alpha: 0, y: "+=25"}, "time-unit")
-.from("#SEC", {duration: 0.5, alpha: 0, y: "+=25"}, "time-unit")
+.from("#LAPTIME", {duration: 0.33, alpha: 0, x: "+=25"})
+.from("#stopwatch", {duration: 0.33, alpha: 0, y: "-=25"}, "-=0.1")
+.from("#MIN", {duration: 0.25, alpha: 0, y: "+=25"}, "time-unit")
+.from("#SEC", {duration: 0.25, alpha: 0, y: "+=25"}, "time-unit")
 ;
 
 
