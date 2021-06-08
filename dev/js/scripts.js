@@ -14,7 +14,8 @@ import { drawLinesTL } from "./drawLines";
 import { leftSectionTL } from "./leftSection";
 import { rightSectionTL } from "./rightSection";
 import { batteryTL } from "./rightSection";
-import { middleSectionTL } from "./middleSection";
+import { voltsTL } from "./middleSection";
+import { oilTL } from "./middleSection";
 import { waterTL } from "./middleSection";
 
 
@@ -32,7 +33,8 @@ mainTL
 .add(leftSectionTL)
 .add(rightSectionTL)
 .add(batteryTL)
-.add(middleSectionTL)
+.add(voltsTL)
+.add(oilTL)
 .add(waterTL)
 ;
         // .addLabel("marker")
