@@ -9,6 +9,7 @@ import { headerTL } from "./startLogos";
 import { boltStartTL } from "./topStats";
 import { rpmTL } from "./topStats";
 import { laptimeTL } from "./topStats";
+import { speedLightsTL } from "./topStats";
 
 
 
@@ -18,10 +19,11 @@ let mainTL = gsap.timeline({paused:true});
 mainTL
 .add(startLogosTL)
 .add(headerTL)
-.addLabel("marker")
 .add(boltStartTL)
+.addLabel("marker")
 .add(rpmTL, "main-stats")
 .add(laptimeTL, "main-stats")
+.add(speedLightsTL)
 ;
         // .addLabel("marker")
 
