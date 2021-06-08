@@ -33,7 +33,7 @@ laptimeTL
 export let speedLightsTL = gsap.timeline();
 
 speedLightsTL
-.fromTo("#speed-oval", {drawSVG:"0%"},{duration: 1, drawSVG:"0% 100%", ease: "power1.out"})
+.fromTo("#speed-oval", {drawSVG:"false"},{duration: 1, drawSVG:"true", ease: "power1.out"})
 .fromTo("#speed-oval", {fill:"#9C1C25"},{duration: 1, fill:"#FFFFFF"})
 .fromTo("#circle-1-1", {drawSVG:"50% 50%"},{duration: 0.25, drawSVG:"100%", ease: "power1.out"})
 .from("#circle-1-2", {duration: 0.1, alpha:0})
