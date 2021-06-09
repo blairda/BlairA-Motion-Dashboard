@@ -1,8 +1,5 @@
 import { gsap } from "gsap";
-// import { GSDevTools } from "gsap/GSDevTools";
 
-// gsap.registerPlugin(GSDevTools);
-// GSDevTools.create();
 
 import { startLogosTL } from "./startLogos";
 import { headerTL } from "./startLogos";
@@ -25,6 +22,9 @@ import { rightSectionTL } from "./rightSection";
 import { batteryTL } from "./rightSection";
 
 import { enterAlertTL } from "./leftSection";
+
+import { speedUpTL } from "./topStats";
+
 import { exitAlertTL } from "./leftSection";
 
 import { timeCountTL } from "./topStats";
@@ -33,7 +33,6 @@ import { timeCountTL } from "./topStats";
 let mainTL = gsap.timeline({paused:true});
 
 mainTL
-// .addLabel("marker")
 .add(startLogosTL)
 .add(headerTL)
 
@@ -55,11 +54,19 @@ mainTL
 .add(batteryTL)
 
 .add(enterAlertTL)
+
+.add(speedUpTL)
+
 .add(exitAlertTL)
 
 .add(timeCountTL, "-=16")
 ;
 
-
+// .addLabel("marker")
 // mainTL.play("marker");
 mainTL.play();
+
+// import { GSDevTools } from "gsap/GSDevTools";
+
+// gsap.registerPlugin(GSDevTools);
+// GSDevTools.create();

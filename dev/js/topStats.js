@@ -11,7 +11,7 @@ boltStartTL
 .fromTo("#yellow-bolt", {drawSVG:"50% 50%"},{duration: 2, drawSVG:"100% 0%", ease: "power1.out"}, "bolt-outline")
 .from("#rpm-numbers path", {duration: 0.25, alpha: 0, stagger: 0.125, y: "+=10"})
 .fromTo("#rpm-bolt-fill", {x:"-=755", alpha:0}, {duration: 1, x:"+=755", alpha:1, ease: "power1.out"})
-.to("#rpm-bolt-fill", {duration: 0.5, x:"-=225", ease: "power1.out"})
+.to("#rpm-bolt-fill", {duration: 0.5, x:"-=235", ease: "power1.out"})
 ;
 
 
@@ -22,6 +22,16 @@ rpmTL
 .from("#tachometer", {duration: 0.33, alpha: 0, y: "-=25"}, "-=0.1")
 .from("#rpm-lines", {duration: 0.25, alpha:0, repeat:3, yoyo:true, ease: "power1.out"})
 .from("#rpm-number", {duration: 0.25, alpha:0})
+;
+
+
+export let speedUpTL = gsap.timeline();
+
+speedUpTL
+.to("#rpm-bolt-fill", {duration: 0.5, x:"+=28", ease: "power1.out"})
+.to(".rpm-new", {duration: 0.1, alpha:0}, "rpm-change")
+.from("#rpm-number-2", {duration: 0.1, alpha:0}, "rpm-change")
+.to("#path-5", {duration: 0.15, alpha:1})
 ;
 
 
