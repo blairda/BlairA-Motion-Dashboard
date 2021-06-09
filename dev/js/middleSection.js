@@ -12,7 +12,7 @@ voltsTL
 
 .from("#VOLTS", {duration: 0.25, alpha:0, x:"-=30"}, "volt-intro")
 .from("#bolt", {duration: 0.25, alpha:0, y:"+=10"}, "volt-intro")
-.from("#volts-lines", {duration: 0.25, alpha:0, repeat:3, yoyo:true})
+.from("#volts-lines", {duration: 0.25, alpha:0, repeat:3, yoyo:true, ease: "power1.out"})
 .from("#volts-number", {duration: 0.25, alpha:0})
 .from("#volts-unit", {duration: 0.25, alpha:0, y:"-=10"}, "-=.1")
 ;
@@ -26,7 +26,7 @@ oilTL
 
 .from("#OILTEMP", {duration: 0.25, alpha:0, x:"-=30"}, "oil-intro")
 .from("#burn", {duration: 0.25, alpha:0, y:"+=10"}, "oil-intro")
-.from("#oil-lines", {duration: 0.25, alpha:0, repeat:3, yoyo:true})
+.from("#oil-lines", {duration: 0.25, alpha:0, repeat:3, yoyo:true, ease: "power1.out"})
 .from("#oil-number", {duration: 0.25, alpha:0})
 .from("#oil-unit", {duration: 0.25, alpha:0, y:"-=10"}, "-=.1")
 ;
@@ -39,7 +39,7 @@ waterTL
 
 .from("#WATERTEMP", {duration: 0.25, alpha:0, x:"-=30"}, "water-intro")
 .from("#tint", {duration: 0.25, alpha:0, y:"+=10"}, "water-intro")
-.from("#water-lines", {duration: 0.25, alpha:0, repeat:3, yoyo:true})
+.from("#water-lines", {duration: 0.25, alpha:0, repeat:3, yoyo:true, ease: "power1.out"})
 .from("#water-number", {duration: 0.25, alpha:0})
 .from("#water-unit", {duration: 0.25, alpha:0, y:"-=10"}, "-=.1")
 ;

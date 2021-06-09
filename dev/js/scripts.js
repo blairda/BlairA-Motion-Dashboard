@@ -32,22 +32,23 @@ let mainTL = gsap.timeline({paused:true});
 mainTL
 
 .add(startLogosTL)
-.add(headerTL, "begin")
+.add(headerTL)
 
-.add(boltStartTL, "begin")
-.add(rpmTL, "-=0.5")
-.add(laptimeTL, "-=0.25")
-.add(speedLightsTL, "next")
+// .addLabel("marker")
 
-.add(drawLinesTL, "next")
+.add(boltStartTL, "top")
+.add(rpmTL, "-=1.25")
+.add(laptimeTL, "-=0.75")
 
-.add(leftSectionTL)
+.add(drawLinesTL, "bottom")
+
+.add(leftSectionTL, "bottom")
 
 .add(voltsTL)
 .add(oilTL, "-=0.1")
 .add(waterTL, "-=0.1")
 
-.addLabel("marker")
+.add(speedLightsTL, "top")
 
 .add(rightSectionTL)
 .add(batteryTL)
@@ -59,5 +60,5 @@ mainTL
 
 
 
-    mainTL.play("marker");
-    // mainTL.play();
+    // mainTL.play("marker");
+    mainTL.play();
