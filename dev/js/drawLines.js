@@ -9,7 +9,3 @@ drawLinesTL
 .fromTo("#diagonal-1", {drawSVG:"false"},{duration: 0.5, drawSVG:"true", ease: "power1.out"})
 .fromTo("#diagonal-2", {drawSVG:"false"},{duration: 0.5, drawSVG:"true", ease: "power1.out"}, "-=0.2")
 ;
-
-
-// .fromTo("#vertical-1", {drawSVG:"false"},{duration: 0.5, drawSVG:"true", ease: "power1.out"}, "-=0.33")
-// .fromTo("#vertical-2", {drawSVG:"false"},{duration: 0.5, drawSVG:"true", ease: "power1.out"}, "-=0.33")

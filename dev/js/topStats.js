@@ -72,3 +72,52 @@ speedLightsTL
 .to("#path-7", {duration: 0.15, alpha:1})
 .to("#path-6", {duration: 0.15, alpha:1})
 ;
+
+
+export let timeCountTL = gsap.timeline();
+
+timeCountTL
+.from(".zeroes", {duration:0.25, alpha:0})
+.to("#zero-1", {duration:0.01, alpha:0})
+.fromTo("#one", {alpha:0}, {duration:0.5, alpha:1})
+.to("#one", {duration:0.01, alpha:0, delay: 0.5})
+.fromTo("#two", {alpha:0}, {duration:0.5, alpha:1})
+.to("#two", {duration:0.01, alpha:0, delay: 0.5})
+.fromTo("#three", {alpha:0}, {duration:0.5, alpha:1})
+.to("#three", {duration:0.01, alpha:0, delay: 0.5})
+.fromTo("#four", {alpha:0}, {duration:0.5, alpha:1})
+.to("#four", {duration:0.10, alpha:0, delay: 0.5})
+.fromTo("#five", {alpha:0}, {duration:0.5, alpha:1})
+.to("#five", {duration:0.01, alpha:0, delay: 0.5})
+.fromTo("#six", {alpha:0}, {duration:0.5, alpha:1})
+.to("#six", {duration:0.01, alpha:0, delay: 0.5})
+.fromTo("#seven", {alpha:0}, {duration:0.5, alpha:1})
+.to("#seven", {duration:0.01, alpha:0, delay: 0.5})
+.fromTo("#eight", {alpha:0}, {duration:0.5, alpha:1})
+.to("#eight", {duration:0.01, alpha:0, delay: 0.5})
+.fromTo("#nine", {alpha:0}, {duration:0.5, alpha:1})
+.to("#nine", {duration:0.01, alpha:0, delay: 0.5}, "nine")
+.to("#zero-2", {duration:0.01, alpha:0, delay: 0.5}, "nine")
+
+.fromTo("#one-2", {alpha:0}, {duration:0.5, alpha:1}, "ten")
+.fromTo("#zero-1", {alpha:0}, {duration:0.5, alpha:1}, "ten")
+.to("#zero-1", {duration:0.01, alpha:0, delay: 0.5})
+
+.fromTo("#one", {alpha:0}, {duration:0.5, alpha:1})
+.to("#one", {duration:0.01, alpha:0, delay: 0.5})
+.fromTo("#two", {alpha:0}, {duration:0.5, alpha:1})
+.to("#two", {duration:0.01, alpha:0, delay: 0.5})
+.fromTo("#three", {alpha:0}, {duration:0.5, alpha:1})
+.to("#three", {duration:0.01, alpha:0, delay: 0.5})
+.fromTo("#four", {alpha:0}, {duration:0.5, alpha:1})
+.to("#four", {duration:0.10, alpha:0, delay: 0.5})
+.fromTo("#five", {alpha:0}, {duration:0.5, alpha:1})
+.to("#five", {duration:0.01, alpha:0, delay: 0.5})
+.fromTo("#six", {alpha:0}, {duration:0.5, alpha:1})
+.to("#six", {duration:0.01, alpha:0, delay: 0.5})
+.fromTo("#seven", {alpha:0}, {duration:0.5, alpha:1})
+.to("#seven", {duration:0.01, alpha:0, delay: 0.5})
+.fromTo("#eight", {alpha:0}, {duration:0.5, alpha:1})
+.to("#eight", {duration:0.01, alpha:0, delay: 0.5})
+.fromTo("#nine", {alpha:0}, {duration:0.5, alpha:1})
+;
