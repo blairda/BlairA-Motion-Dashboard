@@ -23,11 +23,14 @@ import { waterTL } from "./middleSection";
 import { rightSectionTL } from "./rightSection";
 import { batteryTL } from "./rightSection";
 
+import { enterAlertTL } from "./leftSection";
+import { exitAlertTL } from "./leftSection";
+
 
 let mainTL = gsap.timeline({paused:true});
 
 mainTL
-.addLabel("marker")
+
 .add(startLogosTL)
 .add(headerTL, "begin")
 
@@ -44,8 +47,13 @@ mainTL
 .add(oilTL, "-=0.1")
 .add(waterTL, "-=0.1")
 
+.addLabel("marker")
+
 .add(rightSectionTL)
 .add(batteryTL)
+
+.add(enterAlertTL)
+.add(exitAlertTL)
 ;
         // .addLabel("marker")
 
